@@ -1,0 +1,179 @@
+/* codice css del progetto natural intero */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/sfondo.png");
+}
+
+#container {
+  margin: auto;
+  width: 50vw;
+}
+
+/* immagini dell'header */
+
+.img_forest {
+  text-align: center;
+  position: relative;
+}
+
+#alberi {
+  border: 5px solid white;
+  width: 50vw;
+  height: 25vw;
+  margin-top: 20px;
+}
+
+.l_white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  height: 50%;
+}
+
+.testo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* end immagini dell'header */
+
+/* elementi navbar */
+
+.navbar {
+  background-color: rgb(81, 60, 75);
+  width: 50vw;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+ }
+
+li {
+   list-style: none;
+}
+
+nav li {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav li:hover {
+  background-color: darkgray;
+}
+
+/* end elementi navbar */
+
+/* elementi flottanti */
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+.col_left, .col_right, .col_center, footer {
+  background: white;
+  border-radius: 5px;
+}
+
+.col_left, .col_right {
+  width: 12vw;
+}
+
+.col_center {
+  width: 24vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.col_left {
+}
+
+aside {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* proprietà del titolo colonna sx */
+
+.title h2 {
+  color: darkblue;
+  padding-left: 20px;
+  display: inline;
+}
+
+i {
+  color: white;
+  background: orange;
+  margin: 10px;
+  padding: 2px;
+}
+
+/* end proprietà del titolo colonna sx */
+
+/* proprietà della lista colonna sx */
+
+aside ul {
+  margin: 10px;
+  line-height: 1.5em;
+}
+
+li > a {
+  color: green;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* end proprietà della lista colonna sx */
+
+/* proprietà del titolo colonna centrale */
+
+.col_center h2 {
+  text-transform: uppercase;
+
+
+p {
+  text-align: justify;
+  color: blue;
+  line-height: 2em;
+  padding: 10px;
+  text-indent:
+}
+
+
+
+footer {
+  height: 100px;
+  margin-top: 20px;
+}
